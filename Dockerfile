@@ -77,6 +77,7 @@ RUN apt-get install -y --no-install-recommends --allow-unauthenticated \
     unzip \
     wget \
     zlib1g-dev \
+    fonts-hanazono \
     && apt-get clean autoclean \
     && apt-get autoremove --yes \
     && rm -rf /var/lib/{apt,dpkg,cache,log}/
